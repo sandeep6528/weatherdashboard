@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+    crossorigin="anonymous"></script>
+
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -19,26 +23,16 @@
 
           
             <div class="seperator"></div> 
-
-            <button class="atlanta-btn">Atlanta</button>
-            <button class="atlanta-btn">Denver</button>
-            <button class="atlanta-btn">Seattle</button>
-            <button class="atlanta-btn">San Francisco</button>
-            <button class="atlanta-btn">Orlando</button>
-            <button class="atlanta-btn">New York</button>
-            <button class="atlanta-btn"> Chicago</button>
-            <button class="atlanta-btn">Austin</button>
-            <button class="atlanta-btn">Texas</button>
-
-            
+        
+            <div class="history"></div> 
         </div>
         <div class="weather-data">
             <div class="current-weather">
                 <div class="details">
-                    <h2> Atlanta (10/3/2023)</h2>
-                    <h4> Temperature:83°F </h4>
-                    <h4>Wind:8 MPH </h4>
-                    <h4>Humidity: 52% </h4>
+                    <h2> </h2>
+                    <h4 class="temperature"> </h4>
+                    <h4 class="wind"> </h4>
+                    <h4 class="humidity"></h4>
                 </div>
                 <div class="icon">
                     <img src="" alt="">
@@ -47,42 +41,7 @@
             </div>
             <div class="days-forecast">
                 <h2>5-Day Forecast:</h2>
-                <ul class="weather-cards">
-                    <li class="card">
-                        <h3> 10/3/2023</h3>
-                        <h4> Temperature:84°F </h4>
-                        <h4>Wind:8 MPH </h4>
-                        <h4>Humidity: 53% </h4>
-
-                    </li>
-                    <li class="card">
-                        <h3> 10/4/2023</h3>
-                        <h4> Temperature:82°F </h4>
-                        <h4>Wind:9 MPH </h4>
-                        <h4>Humidity: 55% </h4>
-
-                    </li>
-                    <li class="card">
-                        <h3> 10/5/2023</h3>
-                        <h4> Temperature:81°F </h4>
-                        <h4>Wind:6 MPH </h4>
-                        <h4>Humidity: 55% </h4>
-
-                    </li>
-                    <li class="card">
-                        <h3> 10/6/2023</h3>
-                        <h4> Temperature:80°F </h4>
-                        <h4>Wind:6 MPH </h4>
-                        <h4>Humidity: 62% </h4>
-
-                    </li>
-                    <li class="card">
-                        <h3> 10/7/2023</h3>
-                        <h4> Temperature:71°F </h4>
-                        <h4>Wind:12 MPH </h4>
-                        <h4>Humidity: 40% </h4>
-                    </li>
-                </ul>
+                <ul class="weather-cards"> </ul>
             </div>
         </div>
     </div>
