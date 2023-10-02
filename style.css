@@ -94,3 +94,28 @@ justify-content: space-between;
     font-size: 1rem;
     font-weight: 500;
 }
+
+.days-forecast h2{
+    font-size: 1.5rem;
+    margin: 20px 0;
+ 
+
+}
+
+.weather-cards{
+    display: flex;
+    gap: 20px;
+}
+
+.weather-cards .card{
+
+    list-style: none;
+    color: #fff;
+    padding: 18px 16px;
+    border-radius: 5px;
+    background: rgb(29, 29, 46);
+    width: calc(100% / 5);
+ 
+
+}
+

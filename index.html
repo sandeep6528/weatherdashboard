@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <h1>Weather Dashboard</h1>
     <div class="container">
         <div class="weather-input">
             <h3>Search For A City</h3>
-            <input type="text" placeholder="San Diego">
+            <input class="city-input" type="text" placeholder="San Diego">
 
             <button class="search-btn">Search</button>
 
@@ -43,6 +44,45 @@
                     <img src="" alt="">
                  
                 </div>
+            </div>
+            <div class="days-forecast">
+                <h2>5-Day Forecast:</h2>
+                <ul class="weather-cards">
+                    <li class="card">
+                        <h3> 10/3/2023</h3>
+                        <h4> Temperature:84°F </h4>
+                        <h4>Wind:8 MPH </h4>
+                        <h4>Humidity: 53% </h4>
+
+                    </li>
+                    <li class="card">
+                        <h3> 10/4/2023</h3>
+                        <h4> Temperature:82°F </h4>
+                        <h4>Wind:9 MPH </h4>
+                        <h4>Humidity: 55% </h4>
+
+                    </li>
+                    <li class="card">
+                        <h3> 10/5/2023</h3>
+                        <h4> Temperature:81°F </h4>
+                        <h4>Wind:6 MPH </h4>
+                        <h4>Humidity: 55% </h4>
+
+                    </li>
+                    <li class="card">
+                        <h3> 10/6/2023</h3>
+                        <h4> Temperature:80°F </h4>
+                        <h4>Wind:6 MPH </h4>
+                        <h4>Humidity: 62% </h4>
+
+                    </li>
+                    <li class="card">
+                        <h3> 10/7/2023</h3>
+                        <h4> Temperature:71°F </h4>
+                        <h4>Wind:12 MPH </h4>
+                        <h4>Humidity: 40% </h4>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
